@@ -1,0 +1,45 @@
+
+body{
+    min-height: 1500px;
+}
+
+header{
+    background-color: blueviolet;
+    text-align: center;
+    position: sticky;
+    top: 20px;
+}
+header h1{
+    display: inline-block;
+    margin:0 100px ;
+    color: rgb(255, 255, 255);
+}
+header img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+nav{
+    display: inline-block;
+    width: 500px;
+    background-color: aquamarine;
+}
+nav h2{
+    display: inline-block;
+
+}
+nav h2 a{
+    text-decoration: none;
+
+}
+/* mobile responsive design*/
+@media screen and (max-width:768px){
+    header{
+        background-color: aquamarine;
+    }
+}
+main section {
+    display: block;
+    width: 100%;
+
+}
